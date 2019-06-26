@@ -1,0 +1,3155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-66582-32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-66582-32');
+    </script>
+
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Chris Albon" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://chrisalbon.com/" />
+
+<meta property="og:updated_time" content="2018-12-16T11:53:49-07:00"/>
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Chris Albon"/>
+<meta name="twitter:description" content=""/>
+<meta name="generator" content="Hugo 0.54.0" /> 
+    
+    
+    
+    
+
+    <title>Chris Albon</title>
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+
+    
+    <link href="https://chrisalbon.com/css/custom.css" rel="stylesheet"> 
+    <link href="https://chrisalbon.com/css/syntax.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,500,700" rel="stylesheet">
+        
+    <link href="https://chrisalbon.com/index.xml" rel="alternate" type="application/rss+xml" title="Chris Albon" /> 
+    
+    <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/notebooks/content.md">Chris Albon</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav mr-auto"></ul>
+                <ul class="navbar-nav">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/notebooks/content/#leadershi.md">Leadership</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/files/docs/ipynb/index.html.md" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            ML/AI
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="/notebooks/content/#machine_learnin.md">Machine Learning</a>
+                            <a class="dropdown-item" href="/notebooks/content/#deep_learnin.md">Deep Learning</a>
+                            <a class="dropdown-item" href="/notebooks/content/#pytho.md">Python</a>
+                            <a class="dropdown-item" href="/notebooks/content/#statistic.md">Statistics</a>
+                            <a class="dropdown-item" href="/notebooks/content/#scal.md">Scala</a>
+                            <a class="dropdown-item" href="/notebooks/content/#postgresq.md">PostgreSQL</a>
+                            <a class="dropdown-item" href="/notebooks/content/#linu.md">Command Line</a>
+                            <a class="dropdown-item" href="/notebooks/content/#rege.md">Regular Expressions</a>
+                            <a class="dropdown-item" href="/notebooks/content/#mathematic.md">Mathematics</a>
+                            <a class="dropdown-item" href="/notebooks/content/#aw.md">AWS</a>
+                            <a class="dropdown-item" href="/notebooks/content/#computer_scienc.md">Computer Science</a>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/files/docs/ipynb/index.html.md" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="/notebooks/content/about/chris_albon.md">About Chris</a>
+                            <a class="dropdown-item" href="https://github.com/chrisalbo.md">GitHub</a>
+                            <a class="dropdown-item" href="https://twitter.com/chrisalbo.md">Twitter</a>
+                            <a class="dropdown-item" href="https://www.amazon.com/Machine-Learning-Python-Cookbook-Preprocessing/dp/149198938.md">ML Book</a>
+                            <a class="dropdown-item" href="https://machinelearningflashcards.com.md">ML Flashcards</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+
+                
+<main>
+    <div class="homepage">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>
+                    <span class="minor_line">Technical Notes On Using</span>
+                    <br>
+                    <span class="major_line">Data Science &amp; Artificial Intelligence</span>
+                    <br>
+                    <span class="minor_line">To Fight For Something That Matters</span>
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 blurb">
+                <p>
+                    <a href="/notebooks/content/about/chris_albon.md">I am a data scientist</a> with a decade of
+                    experience applying statistical
+                    learning, artificial intelligence, and software engineering to political, social, and humanitarian
+                    efforts
+                    -- from election monitoring to disaster relief. I lead the data science team at
+                    <a href="http://www.devoted.com.md">Devoted Health</a>, helping fix America's health care system.</p>
+                <p>Learning machine learning? Check out my
+                    <a href="https://machinelearningflashcards.com.md">Machine Learning Flashcards</a> or my book,
+                    <a href="https://amzn.to/2HwnWt.md">Machine Learning With Python Cookbook</a>.</p>
+            </div>
+        </div>
+        
+
+        <div class="row" id="machine_learning">
+            <div class="col-sm-12">
+                <h3 class="category_header">Machine Learning</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Vectors, Matrices, And Arrays</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/vectors_matrices_and_arrays/transpose_a_vector_or_matrix.md">Transpose A Vector Or Matrix</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/vectors_matrices_and_arrays/selecting_elements_in_an_array.md">Selecting Elements In An Array</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/vectors_matrices_and_arrays/reshape_an_array.md">Reshape An Array</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/vectors_matrices_and_arrays/invert_a_matrix.md">Invert A Matrix</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/vectors_matrices_and_arrays/getting_the_diagonal_of_a_matrix.md">Getting The Diagonal Of A Matrix</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/vectors_matrices_and_arrays/flatten_a_matrix.md">Flatten A Matrix</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/vectors_matrices_and_arrays/find_the_rank_of_a_matrix.md">Find The Rank Of A Matrix</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/vectors_matrices_and_arrays/find_maximum_and_minimum.md">Find The Maximum And Minimum</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/vectors_matrices_and_arrays/describe_a_matrix.md">Describe An Array</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/vectors_matrices_and_arrays/create_a_vector.md">Create A Vector</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/vectors_matrices_and_arrays/create_a_sparse_matrix.md">Create A Sparse Matrix</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/vectors_matrices_and_arrays/create_a_matrix.md">Create A Matrix</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/vectors_matrices_and_arrays/converting_a_dictionary_into_a_matrix.md">Converting A Dictionary Into A Matrix</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/vectors_matrices_and_arrays/calculate_the_trace_of_a_matrix.md">Calculate The Trace Of A Matrix</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/vectors_matrices_and_arrays/calculate_the_determinant_of_a_matrix.md">Calculate The Determinant Of A Matrix</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/vectors_matrices_and_arrays/calculate_average_variance_and_standard_deviation.md">Calculate The Average, Variance, And Standard Deviation</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/vectors_matrices_and_arrays/calculate_dot_product_of_two_vectors.md">Calculate Dot Product Of Two Vectors</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/vectors_matrices_and_arrays/apply_operations_to_elements.md">Apply Operations To Elements</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/vectors_matrices_and_arrays/adding_and_subtracting_matrices.md">Adding And Subtracting Matrices</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Basics</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/basics/loading_features_from_dictionaries.md">Loading Features From Dictionaries</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/basics/loading_scikit-learns_boston_housing_dataset.md">Loading scikit-learn's Boston Housing Dataset</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/basics/loading_scikit-learns_digits-dataset.md">Loading scikit-learn's Digits Dataset</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/basics/loading_scikit-learns_iris_dataset.md">Loading scikit-learn's Iris Dataset</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/basics/make_simulated_data_for_classification.md">Make Simulated Data For Classification</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/basics/make_simulated_data_for_clustering.md">Make Simulated Data For Clustering</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/basics/make_simulated_data_for_regression.md">Make Simulated Data For Regression</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/basics/perceptron_in_scikit-learn.md">Perceptron In Scikit</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/basics/saving_machine_learning_models.md">Saving Machine Learning Models</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Preprocessing Structured Data</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_structured_data/convert_pandas_categorical_column_into_integers_for_scikit-learn.md">Convert Pandas Categorical Data For Scikit-Learn</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_structured_data/delete_observations_with_missing_values.md">Delete Observations With Missing Values</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_structured_data/deleting_missing_values.md">Deleting Missing Values</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_structured_data/detecting_outliers.md">Detecting Outliers</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_structured_data/discretize_features.md">Discretize Features</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_structured_data/encoding_ordinal_categorical_features.md">Encoding Ordinal Categorical Features</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_structured_data/handling_imbalanced_classes_with_downsampling.md">Handling Imbalanced Classes With Downsampling</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_structured_data/handling_imbalanced_classes_with_upsampling.md">Handling Imbalanced Classes With Upsampling</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_structured_data/handling_outliers.md">Handling Outliers</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_structured_data/impute_missing_values_with_means.md">Impute Missing Values With Means</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_structured_data/imputing_missing_class_labels.md">Imputing Missing Class Labels</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_structured_data/imputing_missing_class_labels_using_k-nearest_neighbors.md">Imputing Missing Class Labels Using k-Nearest Neighbors</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_structured_data/normalizing_observations.md">Normalizing Observations</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_structured_data/one-hot_encode_features_with_multiple_labels.md">One-Hot Encode Features With Multiple Labels</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_structured_data/one-hot_encode_nominal_categorical_features.md">One-Hot Encode Nominal Categorical Features</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_structured_data/preprocessing_categorical_features.md">Preprocessing Categorical Features</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_structured_data/preprocessing_iris_data.md">Preprocessing Iris Data</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_structured_data/rescale_a_feature.md">Rescale A Feature</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_structured_data/standardize_a_feature.md">Standardize A Feature</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Preprocessing Images</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_images/binarize_image.md">Binarize Images</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_images/blurring_images.md">Blurring Images</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_images/cropping_images.md">Cropping Images</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_images/detect_edges.md">Detect Edges</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_images/enhance_contrast_of_color_image.md">Enhance Contrast Of Color Image</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_images/enhance_contrast_of_greyscale_image.md">Enhance Contrast Of Greyscale Image</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_images/harris_corner_detector.md">Harris Corner Detector</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_images/installing_opencv.md">Installing OpenCV</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_images/isolate_colors.md">Isolate Colors</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_images/load_images.md">Load Images</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_images/remove_backgrounds.md">Remove Backgrounds</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_images/save_images.md">Save Images</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_images/sharpen_images.md">Sharpen Images</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_images/ski-tomasi_corner_detector.md">Shi-Tomasi Corner Detector</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_images/using_mean_color_as_a_feature.md">Using Mean Color As A Feature</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Preprocessing Text</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_text/bag_of_words.md">Bag Of Words</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_text/parse_html.md">Parse HTML</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_text/remove_punctuation.md">Remove Punctuation</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_text/remove_stop_words.md">Remove Stop Words</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_text/replace_characters.md">Replace Characters</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_text/stemming_words.md">Stemming Words</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_text/strip_whitespace.md">Strip Whitespace</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_text/tag_parts_of_speech.md">Tag Parts Of Speech</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_text/tf-idf.md">Term Frequency Inverse Document Frequency</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_text/tokenize_text.md">Tokenize Text</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Preprocessing Dates And Times</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_dates_and_times/break_up_dates_and_times_into_multiple_features.md">Break Up Dates And Times Into Multiple Features</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_dates_and_times/calculate_difference_between_dates_and_times.md">Calculate Difference Between Dates And Times</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_dates_and_times/convert_strings_to_dates.md">Convert Strings To Dates</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_dates_and_times/convert_pandas_column_timezone.md">Convert pandas Columns Time Zone</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_dates_and_times/encode_days_of_the_week.md">Encode Days Of The Week</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_dates_and_times/handling_missing_values_in_time_series.md">Handling Missing Values In Time Series</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_dates_and_times/handling_time_zones.md">Handling Time Zones</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_dates_and_times/lag_a_time_feature.md">Lag A Time Feature</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_dates_and_times/rolling_time_windows.md">Rolling Time Window</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/preprocessing_dates_and_times/select_date_and_time_ranges.md">Select Date And Time Ranges</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Feature Engineering</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/feature_engineering/dimensionality_reduction_on_sparse_feature_matrix.md">Dimensionality Reduction On Sparse Feature Matrix</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/feature_engineering/dimensionality_reduction_with_kernel_pca.md">Dimensionality Reduction With Kernel PCA</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/feature_engineering/dimensionality_reduction_with_pca.md">Dimensionality Reduction With PCA</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/feature_engineering/feature_extraction_with_pca.md">Feature Extraction With PCA</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/feature_engineering/group_observations_using_clustering.md">Group Observations Using K-Means Clustering</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/feature_engineering/select_best_number_of_components_in_lda.md">Selecting The Best Number Of Components For LDA</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/feature_engineering/select_best_number_of_components_in_tsvd.md">Selecting The Best Number Of Components For TSVD</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/feature_engineering/lda_for_dimensionality_reduction.md">Using Linear Discriminant Analysis For Dimensionality Reduction</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Feature Selection</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/feature_selection/anova_f-value_for_feature_selection.md">ANOVA F-value For Feature Selection</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/feature_selection/chi-squared_for_feature_selection.md">Chi-Squared For Feature Selection</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/feature_selection/drop_highly_correlated_features.md">Drop Highly Correlated Features</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/feature_selection/recursive_feature_elimination.md">Recursive Feature Elimination</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/feature_selection/variance_thresholding_binary_features.md">Variance Thresholding Binary Features</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/feature_selection/variance_thresholding_for_feature_selection.md">Variance Thresholding For Feature Selection</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Model Evaluation</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/model_evaluation/accuracy.md">Accuracy</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/model_evaluation/create_baseline_classification_model.md">Create Baseline Classification Model</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/model_evaluation/create_baseline_regression_model.md">Create Baseline Regression Model</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/model_evaluation/cross_validation_pipeline.md">Cross Validation Pipeline</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/model_evaluation/cross_validation_parameter_tuning_grid_search.md">Cross Validation With Parameter Tuning Using Grid Search</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/model_evaluation/cross-validaton.md">Cross-Validation</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/model_evaluation/custom_performance_metric.md">Custom Performance Metric</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/model_evaluation/f1_score.md">F1 Score</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/model_evaluation/generate_text_reports_on_performance.md">Generate Text Reports On Performance</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/model_evaluation/nested_cross_validation.md">Nested Cross Validation</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/model_evaluation/plot_the_learning_curve.md">Plot The Learning Curve</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/model_evaluation/plot_the_receiving_operating_characteristic_curve.md">Plot The Receiving Operating Characteristic Curve</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/model_evaluation/plot_the_validation_curve.md">Plot The Validation Curve</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/model_evaluation/precision.md">Precision</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/model_evaluation/recall.md">Recall</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/model_evaluation/split_data_into_training_and_test_sets.md">Split Data Into Training And Test Sets</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Model Selection</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/model_selection/find_best_preprocessing_steps_during_model_selection.md">Find Best Preprocessing Steps During Model Selection</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/model_selection/hyperparameter_tuning_using_grid_search.md">Hyperparameter Tuning Using Grid Search</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/model_selection/hyperparameter_tuning_using_random_search.md">Hyperparameter Tuning Using Random Search</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/model_selection/model_selection_using_grid_search.md">Model Selection Using Grid Search</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/model_selection/pipelines_with_parameter_optimization.md">Pipelines With Parameter Optimization</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Linear Regression</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/linear_regression/adding_interaction_terms.md">Adding Interaction Terms</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/linear_regression/create_interaction_features.md">Create Interaction Features</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/linear_regression/effect_of_alpha_on_lasso_regression.md">Effect Of Alpha On Lasso Regression</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/linear_regression/lasso_regression.md">Lasso Regression</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/linear_regression/linear_regression_scikitlearn.md">Linear Regression</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/linear_regression/linear_regression_using_scikit-learn.md">Linear Regression Using Scikit-Learn</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/linear_regression/ridge_regression.md">Ridge Regression</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/linear_regression/selecting_best_alpha_value_in_ridge_regression.md">Selecting The Best Alpha Value In Ridge Regression</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Logistic Regression</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/logistic_regression/fast_c_hyperparameter_tuning.md">Fast C Hyperparameter Tuning</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/logistic_regression/handling_imbalanced_classes_in_logistic_regression.md">Handling Imbalanced Classes In Logistic Regression</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/logistic_regression/logistic_regression.md">Logistic Regression</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/logistic_regression/logistic_regression_on_very_large_data.md">Logistic Regression On Very Large Data</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/logistic_regression/logistic_regression_with_l1_regularization.md">Logistic Regression With L1 Regularization</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/logistic_regression/one-vs-rest_logistic_regression.md">One Vs. Rest Logistic Regression</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Trees And Forests</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/trees_and_forests/adaboost_classifier.md">Adaboost Classifier</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/trees_and_forests/decision_tree_classifier.md">Decision Tree Classifier</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/trees_and_forests/decision_tree_regression.md">Decision Tree Regression</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/trees_and_forests/feature_importance.md">Feature Importance</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/trees_and_forests/feature_selection_using_random_forest.md">Feature Selection Using Random Forest</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/trees_and_forests/handle_imbalanced_classes_in_random_forests.md">Handle Imbalanced Classes In Random Forest</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/trees_and_forests/random_forest_classifier.md">Random Forest Classifier</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/trees_and_forests/random_forest_classifier_example.md">Random Forest Classifier Example</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/trees_and_forests/random_forest_regressor.md">Random Forest Regression</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/trees_and_forests/select_important_features_in_random_forest.md">Select Important Features In Random Forest</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/trees_and_forests/titanic_competition_with_random_forest.md">Titanic Competition With Random Forest</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/trees_and_forests/visualize_a_decision_tree.md">Visualize A Decision Tree</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Nearest Neighbors</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/nearest_neighbors/identifying_best_value_of_k.md">Identifying Best Value Of k</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/nearest_neighbors/k-nearest_neighbors_classifer.md">K-Nearest Neighbors Classification</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/nearest_neighbors/radius_based_nearest_neighbor_classifier.md">Radius-Based Nearest Neighbor Classifier</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Support Vector Machines</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/support_vector_machines/calibrate_predicted_probabilities_in_svc.md">Calibrate Predicted Probabilities In SVC</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/support_vector_machines/find_nearest_neighbors.md">Find Nearest Neighbors</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/support_vector_machines/find_support_vectors.md">Find Support Vectors</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/support_vector_machines/imbalanced_classes_in_svm.md">Imbalanced Classes In SVM</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/support_vector_machines/plot_support_vector_classifier_hyperplane.md">Plot The Support Vector Classifiers Hyperplane</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/support_vector_machines/svc_parameters_using_rbf_kernel.md">SVC Parameters When Using RBF Kernel</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/support_vector_machines/support_vector_classifier.md">Support Vector Classifier</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Naive Bayes</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/naive_bayes/bernoulli_naive_bayes_classifier.md">Bernoulli Naive Bayes Classifier</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/naive_bayes/calibrate_predicted_probabilities.md">Calibrate Predicted Probabilities</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/naive_bayes/gaussian_naive_bayes_classifier.md">Gaussian Naive Bayes Classifier</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/naive_bayes/multinomial_logistic_regression.md">Multinomial Logistic Regression</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/naive_bayes/multinomial_naive_bayes_classifier.md">Multinomial Naive Bayes Classifier</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/naive_bayes/naive_bayes_classifier_from_scratch.md">Naive Bayes Classifier From Scratch</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Clustering</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/clustering/agglomerative_clustering.md">Agglomerative Clustering</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/clustering/dbscan_clustering.md">DBSCAN Clustering</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/clustering/evaluating_clustering.md">Evaluating Clustering</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/clustering/meanshift_clustering.md">Meanshift Clustering</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/clustering/minibatch_k-means_clustering.md">Mini-Batch k-Means Clustering</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/machine_learning/clustering/k-means_clustering.md">k-Means Clustering</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="deep_learning">
+            <div class="col-sm-12">
+                <h3 class="category_header">Deep Learning</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Keras</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/deep_learning/keras/adding_dropout.md">Adding Dropout</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/deep_learning/keras/convolutional_neural_network.md">Convolutional Neural Network</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/deep_learning/keras/feedforward_neural_network_for_binary_classification.md">Feedforward Neural Network For Binary Classification</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/deep_learning/keras/feedforward_neural_network_for_multiclass_classification.md">Feedforward Neural Network For Multiclass Classification</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/deep_learning/keras/feedforward_neural_network_for_regression.md">Feedforward Neural Networks For Regression</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/deep_learning/keras/lstm_recurrent_neural_network.md">LSTM Recurrent Neural Network</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/deep_learning/keras/neural_network_early_stopping.md">Neural Network Early Stopping</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/deep_learning/keras/neural_network_weight_regularization.md">Neural Network Weight Regularization</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/deep_learning/keras/preprocessing_data_for_neural_networks.md">Preprocessing Data For Neural Networks</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/deep_learning/keras/save_model_training_progress.md">Save Model Training Progress</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/deep_learning/keras/tuning_neural_network_hyperparameters.md">Tuning Neural Network Hyperparameters</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/deep_learning/keras/visualize_loss_history.md">Visualize Loss History</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/deep_learning/keras/visualize_neural_network_architecture.md">Visualize Neural Network Architecutre</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/deep_learning/keras/visualize_performance_history.md">Visualize Performance History</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/deep_learning/keras/k-fold_cross-validating_neural_networks.md">k-Fold Cross-Validating Neural Networks</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="python">
+            <div class="col-sm-12">
+                <h3 class="category_header">Python</h3>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Basics</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/add_padding_around_string.md">Add Padding Around String</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/all_combinations_of_a_list_of_objects.md">All Combinations For A List Of Objects</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/apply_operations_over_items_in_lists.md">Apply Operations Over Items In A List</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/applying_functions_to_list_items.md">Applying Functions To List Items</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/arithmetic_basics.md">Arithmetic Basics</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/assignment_operators.md">Assignment Operators</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/numpy_array_basic_operations.md">Basic Operations With NumPy Array</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/breaking_up_string_variables.md">Breaking Up String Variables</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/brute_force_d20_simulator.md">Brute Force D20 Roll Simulator</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/cartesian_product.md">Cartesian Product</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/chain_together_lists.md">Chain Together Lists</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/cleaning_text.md">Cleaning Text</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/compare_two_dictionaries.md">Compare Two Dictionaries</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/concurrent_processing.md">Concurrent Processing</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/continue_and_break_loops.md">Continue And Break Loops</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/convert_html_symbols_to_strings.md">Convert HTML Characters To Strings</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/strings_to_datetime.md">Converting Strings To Datetime</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/create_a_new_file_and_the_write_to_it.md">Create A New File Then Write To It</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/create_a_temporary_file.md">Create A Temporary File</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/data_structure_basics.md">Data Structure Basics</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/date_and_time_basics.md">Date And Time Basics</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/dictionary_basics.md">Dictionary Basics</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/display_json.md">Display JSON</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/display_scientific_notation_as_floats.md">Display Scientific Notation As Floats</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/exiting_a_loop.md">Exiting A Loop</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/find_the_max_value_in_a_dictionary.md">Find The Max Value In A Dictionary</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/flatten_list_of_lists.md">Flatten Lists Of Lists</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/for_loops.md">For Loop</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/formatting_numbers.md">Formatting Numbers</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/function_annotation_examples.md">Function Annotation Examples</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/function_basics.md">Function Basics</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/functions_vs_generators.md">Functions Vs. Generators</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/generating_random_numbers_with_numpy.md">Generating Random Numbers With NumPy</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/generator_expressions.md">Generator Expressions</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/hard_wrapping_text.md">Hard Wrapping Text</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/how_to_use_default_dicts.md">How To Use Default Dicts</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/ifelse_on_any_or_all_elements.md">If Else On Any Or All Elements</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/indexing_and_slicing_numpy_arrays.md">Indexing And Slicing NumPy Arrays</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/numpy_indexing_and_slicing.md">Indexing And Slicing NumPy Arrays</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/iterate_ifelse_over_list.md">Iterate An Ifelse Over A List</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/iterate_over_multiple_lists_simultaneously.md">Iterate Over Multiple Lists Simultaneously</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/iterating_over_dictionary_keys.md">Iterating Over Dictionary Keys</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/lambda_functions.md">Lambda Functions</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/list_all_files_of_particular_type_in_directory.md">List All Files Of Certain Type In A Directory</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/logical_operations.md">Logical Operations</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/looping_over_two_lists.md">Looping Over Two Lists</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/math_operations.md">Mathematical Operations</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/mocking_functions.md">Mocking Functions</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/nested_for_loops_using_list_comprehension.md">Nested For Loops Using List Comprehension</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/nesting_lists.md">Nesting Lists</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/numpy_array_basics.md">Numpy Array Basics</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/parallel_processing.md">Parallel Processing</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/partial_function_applications.md">Partial Function Applications</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/priority_queues.md">Priority Queues</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/queues_and_stacks.md">Queues And Stacks</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/recursive_functions.md">Recursive Functions</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/schedule_run_in_the_future.md">Scheduling Jobs In The Future</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/select_random_element_from_list.md">Select Random Element From A List</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/filter_items_in_list_with_filter.md">Selecting Items In A List With Filters</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/set_the_color_of_a_matplotlib.md">Set The Color Of A Matplotlib Plot</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/sort_a_list_by_last_name.md">Sort A List Of Names By Last Name</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/sort_a_list_of_strings_by_length.md">Sort A List Of Strings By Length</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/store_api_credentials_for_open_source_projects.md">Store API Credentials For Open Source Projects</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/string_formatting.md">String Formatting</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/string_indexing.md">String Indexing</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/string_operations.md">String Operations</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/swapping_variable_values.md">Swapping Variable Values</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/try_except_finally.md">Try, Except, and Finally</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/unpacking_a_tuple.md">Unpacking A Tuple</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/unpacking_function_arguments.md">Unpacking Function Arguments</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/use_command_line_arguments_in_a_function.md">Use Command Line Arguments In A Function</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/using_named_tuples_to_store_data.md">Using Named Tuples To Store Data</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/any_all_max_min_sum.md">any(), all(), max(), min(), sum()</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/if_and_if_else_statements.md">if and if else</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/repr_vs_str.md">repr vs. str</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/basics/while_statements.md">while Statement</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Data Wrangling</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_apply_function_by_group.md">Apply Functions By Group In Pandas</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_apply_operations_to_groups.md">Apply Operations To Groups In Pandas</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_apply_operations_to_dataframes.md">Applying Operations Over pandas Dataframes</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_assign_new_column_dataframe.md">Assign A New Column To A Pandas DataFrame</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/break_list_into_chunks_of_equal_size.md">Break A List Into N-Sized Chunks</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_regex_to_create_columns.md">Breaking Up A String Into Columns Using Regex In pandas</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/columns_shared_by_two_data_frames.md">Columns Shared By Two Data Frames</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/construct_a_dictionary_from_multiple_lists.md">Construct A Dictionary From Multiple Lists</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/csv_to_python_code.md">Convert A CSV Into Python Code To Recreate It</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_convert_categorical_to_dummies.md">Convert A Categorical Variable Into Dummy Variables</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_convert_numeric_categorical_to_numeric_with_patsy.md">Convert A Categorical Variable Into Dummy Variables</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/convert_categorical_to_numeric.md">Convert A String Categorical Variable To A Numeric Variable</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_convert_to_datetime.md">Convert A Variable To A Time Variable In pandas</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_dataframe_count_values.md">Count Values In Pandas Dataframe</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_create_pipeline.md">Create A Pipeline In Pandas</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_create_column_with_loop.md">Create A pandas Column With A For Loop</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/creating_counts_of_items.md">Create Counts Of Items</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_create_column_using_conditional.md">Create a Column Based on a Conditional in pandas</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/create_list_from_dictionary_keys_and_values.md">Creating Lists From Dictionary Keys And Values</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_crosstabs.md">Crosstabs In pandas</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_delete_duplicates.md">Delete Duplicates In pandas</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_dataframe_descriptive_stats.md">Descriptive Statistics For pandas Dataframe</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_dropping_column_and_rows.md">Dropping Rows And Columns In pandas Dataframe</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/enumerate_a_list.md">Enumerate A List</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_expand_cells_containing_lists.md">Expand Cells Containing Lists Into Their Own Variables In Pandas</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/filter_dataframes.md">Filter pandas Dataframes</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_find_largest_value_in_column.md">Find Largest Value In A Dataframe Column</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_find_unique_values.md">Find Unique Values In Pandas Dataframes</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/geocoding_and_reverse_geocoding.md">Geocoding And Reverse Geocoding</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/geolocate_a_city_and_country.md">Geolocate A City And Country</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/geolocate_a_city_or_country.md">Geolocate A City Or Country</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_group_by_time.md">Group A Time Series With pandas</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_group_data_by_time.md">Group Data By Time</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/group_pandas_data_by_hour_of_the_day.md">Group Pandas Data By Hour Of The Day</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_group_rows_by.md">Grouping Rows In pandas</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_hierarchical_data.md">Hierarchical Data In pandas</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_join_merge_dataframe.md">Join And Merge Pandas Dataframe</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_list_unique_values_in_column.md">List Unique Values In A pandas Column</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/load_json_file_into_pandas.md">Load A JSON File Into Pandas</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/load_excel_file_into_pandas.md">Load An Excel File Into Pandas</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_dataframe_load_xls.md">Load Excel Spreadsheet As pandas Dataframe</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_dataframe_importing_csv.md">Loading A CSV Into pandas</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_long_to_wide.md">Long To Wide Format</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_lowercase_column_names.md">Lower Case Column Names In Pandas Dataframe</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_make_new_columns_using_functions.md">Make New Columns Using Functions</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_map_values_to_values.md">Map External Values To Dataframe Values in pandas</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_missing_data.md">Missing Data In pandas Dataframes</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_moving_average.md">Moving Averages In pandas</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_normalize_column.md">Normalize A Column In pandas</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_pivot_tables.md">Pivot Tables In pandas</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_change_column_of_strings.md">Quickly Change A Column Of Strings In Pandas</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_sampling_dataframe.md">Random Sampling Dataframe</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_dataframe_ranking_rows.md">Ranking Rows Of Pandas Dataframes</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/regular_expressions_basics.md">Regular Expression Basics</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/regex_by_example.md">Regular Expression By Example</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_dataframe_reindexing.md">Reindexing pandas Series And Dataframes</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_rename_column_headers.md">Rename Column Headers In pandas</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_rename_multiple_columns.md">Rename Multiple pandas Dataframe Column Names</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_replace_values.md">Replacing Values In pandas</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_saving_dataframe_as_csv.md">Saving A pandas Dataframe As A CSV</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_search_column_for_value.md">Search A pandas Column For A Value</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_select_rows_when_column_has_certain_values.md">Select Rows When Columns Contain Certain Values</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_select_rows_containing_values.md">Select Rows With A Certain Value</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_select_rows_multiple_filters.md">Select Rows With Multiple Filters</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_selecting_rows_on_conditions.md">Selecting pandas DataFrame Rows Based On Conditions</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_dataframe_examples.md">Simple Example Dataframes In pandas</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_sorting_rows_dataframe.md">Sorting Rows In pandas Dataframes</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_split_lat_and_long_into_variables.md">Split Lat/Long Coordinate Variables Into Seperate Variables</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/streaming_data_pipeline.md">Streaming Data Pipeline</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_string_munging.md">String Munging In Dataframe</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_list_comprehension.md">Using List Comprehensions With pandas</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_with_seaborn.md">Using Seaborn To Visualize A pandas Dataframe</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_data_structures.md">pandas Data Structures</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_wrangling/pandas_time_series_basics.md">pandas Time Series Basics</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Data Visualization</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_visualization/matplotlib_back_to_back_bar_plot.md">Back To Back Bar Plot In MatPlotLib</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_visualization/matplotlib_bar_plot.md">Bar Plot In MatPlotLib</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_visualization/seaborn_color_palettes.md">Color Palettes in Seaborn</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_visualization/seaborn_pandas_timeseries_plot.md">Creating A Time Series Plot With Seaborn And pandas</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_visualization/seaborn_scatterplot.md">Creating Scatterplots With Seaborn</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_visualization/matplotlib_grouped_bar_plot.md">Group Bar Plot In MatPlotLib</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_visualization/matplotlib_histogram.md">Histograms In MatPlotLib</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_visualization/matplotlib_scatterplot_from_pandas.md">Making A Matplotlib Scatterplot From A Pandas Dataframe</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_visualization/matplotlib_simple_example.md">Matplotlib, A Simple Example</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_visualization/matplotlib_pie_chart.md">Pie Chart In MatPlotLib</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_visualization/matplotlib_simple_scatterplot.md">Scatterplot In MatPlotLib</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/data_visualization/matplotlib_percentage_stacked_bar_plot.md">Stacked Percentage Bar Plot In MatPlotLib</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Web Scraping</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/web_scraping/beautiful_soup_html_basics.md">Beautiful Soup Basic HTML Scraping</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/web_scraping/beautiful_soup_drill_down.md">Drilling Down With Beautiful Soup</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/web_scraping/monitor_a_website.md">Monitor A Website For Changes With Python</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Testing</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/testing/simple_unit_test.md">Simple Unit Test</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/testing/test_code_speed.md">Test Code Speed</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/testing/test_for_a_specific_exception.md">Test For A Specific Exception</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/testing/test_if_an_output_is_close_to_a_value.md">Test If Output Is Close To A Value</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/testing/testable_documentation.md">Testable Documentation</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Logging</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/logging/basic_logging.md">Basic Logging</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Other</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/other/generate_tweets_using_markov_chain.md">Generate Tweets Using Markov Chains</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/other/mine_a_twitter_hashtags_and_words.md">Mine Twitter's Stream For Hashtags Or Words</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/other/scipy_simple_clustering.md">Simple Clustering With SciPy</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/python/other/aisle_seat_probabilities.md">What Is The Probability An Economy Class Seat Is An Aisle Seat?</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="statistics">
+            <div class="col-sm-12">
+                <h3 class="category_header">Statistics</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Frequentist</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/statistics/frequentist/bessel_correction.md">Bessels Correction</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/statistics/frequentist/demonstrate_the_central_limit_theorem.md">Demonstrate The Central Limit Theorem</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/statistics/frequentist/pearsons_correlation_coefficient.md">Pearsons Correlation Coefficient</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/statistics/frequentist/probability_mass_functions.md">Probability Mass Functions</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/statistics/frequentist/spearmans_rank_correlation.md">Spearmans Rank Correlation</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/statistics/frequentist/t-tests.md">T-Tests</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/statistics/frequentist/variance_and_standard_deviation.md">Variance And Standard Deviation</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="scala">
+            <div class="col-sm-12">
+                <h3 class="category_header">Scala</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/break_a_sequence_into_groups.md">Break A Sequence Into Groups</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/change_data_type.md">Change Data Type</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/chuck_sequence_into_equal_sized_groups.md">Chunk Sequence In Equal Sized Groups</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/compare_two_floats.md">Compare Two Floats</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/create_a_range.md">Create A Range</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/extract_substring_using_regex.md">Extract Substrings Using Regex</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/filter_a_sequence.md">Filter A Sequence</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/find_largest_key_or_value_in_a_map.md">Find Largest Key Or Value In A Map</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/flatten_sequence_of_sequences.md">Flatten Sequence Of Sequences</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/for_loop_a_map.md">For Loop A Map</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/for_looping.md">For Looping</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/format_numbers_as_currency.md">Format Numbers As Currency</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/if_else.md">If Else</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/increment_and_decrement_numbers.md">Increment And Decrement Numbers</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/insert_variables_into_strings.md">Insert Variables Into Strings</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/iterate_over_a_map.md">Iterate Over A Map</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/loop_a_collection.md">Loop A Collection</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/make_numbers_pretty.md">Make Numbers Pretty</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/mapping_a_function_to_a_collection.md">Mapping A Function To A Collection</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/matching_conditions.md">Matching Conditions</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/mutable_maps.md">Mutable Maps</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/n_dimension_arrays.md">N Dimension Arrays</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/partial_functions.md">Partial Functions</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/random_integer_between_two_values.md">Random Integer Between Two Values</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/replacing_parts_of_strings.md">Replacing Parts Of Strings</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/search_a_map.md">Search A Map</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/search_strings.md">Search Strings</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/search_strings_with_regex.md">Search Strings Using Regex</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/set_operations_on_sequences.md">Set Operations On Sequences</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/sorting_sequences.md">Sorting Sequences</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/split_strings.md">Split Strings</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/try_catch_finally.md">Try, Catch, Finally</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/variables_and_values.md">Variables And Values</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/scala/basics/zip_together_two_lists.md">Zip Together Two Lists</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="regex">
+            <div class="col-sm-12">
+                <h3 class="category_header">Regular Expressions</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/regex/patterns/match_a_symbol.md">Match A Symbol</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/regex/patterns/match_a_unicode_character.md">Match A Unicode Character</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/regex/patterns/match_a_word.md">Match A Word</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/regex/patterns/match_any_character.md">Match Any Character</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/regex/patterns/match_any_of_a_list_of_symbols.md">Match Any Of A List Of Characters</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/regex/patterns/match_any_of_series_of_characters.md">Match Any Of A Series Of Options</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/regex/patterns/match_any_of_series_of_words.md">Match Any Of A Series Of Words</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/regex/patterns/match_dates.md">Match Dates</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/regex/patterns/match_email_addresses.md">Match Email Addresses</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/regex/patterns/match_exact_text.md">Match Exact Text</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/regex/patterns/match_integers_of_any_length.md">Match Integers Of Any Length</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/regex/patterns/match_text_between_html_tags.md">Match Text Between HTML Tags</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/regex/patterns/match_times.md">Match Times</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/regex/patterns/match_urls.md">Match URLs</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/regex/patterns/match_us_phone_numbers.md">Match US Phone Numbers</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/regex/patterns/match_us_uk_spellings.md">Match US and UK Spellings</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/regex/patterns/match_words_with_certain_ending.md">Match Words With A Certain Ending</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/regex/patterns/match_zip_codes.md">Match ZIP Codes</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="postgresql">
+            <div class="col-sm-12">
+                <h3 class="category_header">PostgreSQL</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Basics</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/apply_operation_to_column.md">Apply Operation To Column</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/compare_values_to_subquery.md">Compare Values To Subquery</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/copy_rows_from_one_table_to_another.md">Copy Rows From One Table To Another</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/count_rows.md">Count Rows</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/count_unique_values.md">Count Unique Values</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/create_column_index.md">Create Column Index</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/create_postgresql_database_with_python.md">Create PostgreSQL Database With Python</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/create_subquery.md">Create Subquery</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/create_view.md">Create View</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/delete_view.md">Delete View</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/examine_a_query.md">Examine A Query</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/group_rows.md">Group Rows</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/group_rows_with_conditions.md">Group Rows With Conditions</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/if_else.md">If Else</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/list_indexed_columns.md">List Index Columns</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/list_tables_in_database.md">List Tables In Database</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/rename_columns_in_views.md">Rename Columns In Views</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/replace_missing_values.md">Replace Missing Values</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/retrieve_only_a_few_rows.md">Retrieve Only A Few Rows</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/retrieve_random_subset_of_rows.md">Retrieve Random Subset Of Rows</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/retrieve_rows.md">Retrieve Row</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/retrieve_rows_based_on_condition.md">Retrieve Rows Based On Condition</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/retrieve_rows_based_on_multiple_conditions.md">Retrieve Rows Based On Multiple Condition</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/retrieve_subset_columns.md">Retrieve Subset Of Columns</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/retrieving_missing_values.md">Retrieving Missing Values</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/save_queries_as_variables.md">Save Queries As Variables</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/select_highest_value_in_each_group.md">Select Highest Value In Each Group</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/select_values_between_two_values.md">Select Values Between Two Values</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/sort_rows.md">Sort Rows</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/sort_rows_in_groups.md">Sort Rows In Groups</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/test_if_rows_exist_in_subquery.md">Test If Rows Exist In Subquery</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/use_column_aliases_with_where_clause.md">Use Column Aliases With Where Clause</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/retrieve_rows_where_value_matches_element_of_list.md">Value Matches Element Of A List</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/basics/view_unique_values.md">View Unique Values</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Add, Delete, Change Rows</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/add_delete_change/add_column.md">Add Column</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/add_delete_change/change_values.md">Change Values</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/add_delete_change/create_column_aliases.md">Create Column Aliases</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/add_delete_change/create_column_condition_on_another_column.md">Create Column Conditional On Another Column</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/add_delete_change/create_column_of_values.md">Create Column Of Values</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/add_delete_change/create_primary_key.md">Create Primary Key</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/add_delete_change/delete_all_rows.md">Delete All Rows</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/add_delete_change/delete_duplicates.md">Delete Duplicates</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/add_delete_change/delete_primary_key.md">Delete Primary Key</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/add_delete_change/delete_rows.md">Delete Rows</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/add_delete_change/delete_rows_that_dont_exist_in_another_table.md">Delete Rows That Don't Exist In Another Table</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/add_delete_change/export_to_csv.md">Export To CSV</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/add_delete_change/import_csv.md">Import CSV</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/add_delete_change/insert_rows.md">Insert Rows</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/add_delete_change/update_rows_based_on_another_table.md">Update Rows Based On Another Table</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Merging And Joining</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/merging_and_joining/all_unique_values_in_two_tables.md">All Unique Values In Two Tables</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/merging_and_joining/cartesian_product.md">Cartesian Product Of Tables</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/merging_and_joining/concatenate_multiple_tables.md">Concatenate Multiple Table</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/merging_and_joining/find_values_in_both_tables.md">Find Values In Both Tables</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/merging_and_joining/find_values_in_one_table_and_not_another.md">Find Values In One Table And Not Another</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/merging_and_joining/inner_join.md">Inner Join Tables</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/merging_and_joining/join_multiple_tables.md">Join Multiple Table</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/merging_and_joining/left_join.md">Left Join Tables</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/merging_and_joining/outer_join.md">Outer Join Tables</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/merging_and_joining/right_join.md">Right Join Tables</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/merging_and_joining/self_join.md">Self Join Table</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/merging_and_joining/stack_tables.md">Stack Tables</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Tables</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/tables/copy_table_structure.md">Copy Table Structure</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/tables/create_table.md">Create Table</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/tables/create_table_with_default_values.md">Create Table With Default Values</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/tables/create_table_with_uuids.md">Create Table With UUIDs</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/tables/create_temporary_table.md">Create Temporary Table</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/tables/delete_table.md">Delete Table</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/tables/delete_table_with_views.md">Delete Table With Views</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/tables/duplicate_table.md">Duplicate Table</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/tables/list_columns_in_table.md">List Columns In Table</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/tables/show_column_information.md">Show Column Information</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/tables/view_size_of_table.md">View Size Of Table</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Text</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/text/concatenate_values.md">Concatenate Values</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/text/extract_characters_from_strings.md">Extract Characters From Strings</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/text/lower_case_and_upper_case.md">Lower And Upper Case</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/text/partial_string_match.md">Partial String Match</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Numeric</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/numeric/max_min_and_average_of_column.md">Calculate Max, Min, Or Average Of Column</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/numeric/calculate_running_total.md">Calculate Running Total</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/numeric/calculate_sum_of_column.md">Calculate Sum Of Column</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/numeric/convert_floats_to_integers.md">Convert Floats To Integers</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/numeric/mathematical_operations_on_column.md">Mathematical Operations On Columns</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Dates</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/dates/adding_or_substracting_time.md">Adding Or Substracting Time</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/postgresql/dates/calculate_time_duration.md">Calculate Time Duration</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="mathematics">
+            <div class="col-sm-12">
+                <h3 class="category_header">Mathematics</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/mathematics/basics/argmin_and_argmax.md">argmin and argmax</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="aws">
+            <div class="col-sm-12">
+                <h3 class="category_header">AWS</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/aws/basics/run_project_jupyter_on_amazon_ec2.md">Run Project Jupyter Notebooks On Amazon EC2</a>
+                            </li>
+                            
+                            
+                            <li>
+                                <a href="/notebooks/content/aws/s3/cli/create_bucket.md">Create Bucket</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/aws/s3/cli/list_buckets.md">List Buckets</a>
+                            </li>
+                            
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="computer_science">
+            <div class="col-sm-12">
+                <h3 class="category_header">Computer Science</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Algorithms</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/computer_science/algorithms/big-o_notation.md">Big-O Notation</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/computer_science/algorithms/binary_search.md">Binary Search</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/computer_science/algorithms/bubble_sort.md">Bubble Sort</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/computer_science/algorithms/insertion_sort.md">Insertion Sort</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/computer_science/algorithms/selection_sort.md">Selection Sort</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="linux">
+            <div class="col-sm-12">
+                <h3 class="category_header">Linux Command Line</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Basics</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/archive_and_unarchive_files.md">Archive And Unarchive Files</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/change_permissions.md">Change Permissions</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/changing_directories.md">Changing Directories</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/check_current_date_and_time.md">Check Current Date And Time</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/copy_files_and_directories.md">Copy Files And Directories</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/create_command.md">Create Command</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/create_directory.md">Create Directory</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/create_file.md">Create File</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/create_sequential_list_of_files_or_directories.md">Create Sequential List Of Files And Directories</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/create_symbolic_links.md">Create Symbolic Links</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/delete_files_and_directories.md">Delete Files And Directories</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/delete_files_and_subdirectories_in_current_directory.md">Delete Files And Directories In Current Directory</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/exit_terminal_session.md">Exit Terminal Session</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/get_help_with_a_command.md">Get Help With A Command</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/get_information_on_a_file.md">Get Information On A File</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/list_avaliable_commands.md">List Avaliable Commands</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/list_contents_of_a_directory.md">List The Contents Of A Directory</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/move_files_and_directories.md">Move Files And Directories</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/multiple_commands_on_one_line.md">Multiple Commands On One Line</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/ping_website.md">Ping Website</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/rename_file.md">Rename File</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/see_disk_drive_space.md">See Disk Drive Space</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/see_free_memory.md">See Free Memory</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/see_who_is_logged_in.md">See Who Is Logged Into A System</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/select_files_based_on_filename.md">Select Files Based On Filename</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/synchronize_files_and_directories.md">Synchronize Files And Directories</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/track_route_of_network_traffic.md">Track Route Of Network Traffic</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/view_file_type.md">View A File's Type</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/view_file_contents.md">View A Text File's Contents</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/view_current_working_directory.md">View Current Working Directory</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/view_first_and_last_parts_of_files.md">View First And Last Parts Of Files</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/zip_and_unzip_directories.md">Zip And Unzip Directories</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/basics/zip_and_unzip_files.md">Zip And Unzip Files</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Inputs And Outputs</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/inputs_and_outputs/append_error_to_file.md">Append Error To File</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/inputs_and_outputs/append_file_contents_to_another_file.md">Append File Contents To Another File</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/inputs_and_outputs/append_outputs_to_file.md">Append Output To File</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/inputs_and_outputs/append_output_and_errors_to_file.md">Append Outputs And Errors To File</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/inputs_and_outputs/chain_multiple_commands.md">Chain Multiple Commands</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/inputs_and_outputs/concatenate_multiple_files.md">Concatenate Multiple Files</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/inputs_and_outputs/save_output_to_file_in_middle_of_command_chain.md">Save Output To File In Middle Of Command Chain</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/inputs_and_outputs/silence_errors.md">Silence Errors</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/inputs_and_outputs/sort_rows.md">Sort Rows</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/inputs_and_outputs/write_errors_to_file.md">Write Errors To File</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/inputs_and_outputs/write_output_to_file.md">Write Output To File</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Search</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/search/find_directories.md">Find Directories</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/search/find_files.md">Find Files</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/search/find_files_based_on_multiple_conditions.md">Find Files Based On Multiple Conditions</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/search/find_files_by_filename.md">Find Files By Filename</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/search/find_files_by_size.md">Find Files By Size</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/search/find_programs_location.md">Find Program's Location</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/search/find_symbolic_links.md">Find Symbolic Links</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/search/search_contents_of_all_files_of_certain_type.md">Search Contents Of All Files Of Certain Type</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/search/search_file_names.md">Search Filenames</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/search/search_contents_of_a_file.md">Search The Contents Of A File</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Text</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/text/add_columns_to_text.md">Add Columns To Text</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/text/adding_line_numbers.md">Adding Line Numbers</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/text/comparing_text_files.md">Comparing Text Files</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/text/count_unique_rows.md">Count Unique Rows</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/text/extract_text.md">Extract Text</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/text/find_and_replace.md">Find And Replace</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/text/join_and_sort_text.md">Join And Sort Text</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/text/join_columns.md">Join Columns</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/text/quickly_view_file_contents.md">Quickly View File Contents</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Flow Control</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/flow_control/for_loops.md">For Loops</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/flow_control/if_else_for_integers.md">If Else For Integers</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/flow_control/if_else_for_strings.md">If Else For Strings</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/flow_control/if_else_with_multiple_conditions.md">If Else With Multiple Conditions</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Processes</h4>
+                    <div class="card-body">
+                        <ul>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/processes/list_processes.md">List Processes</a>
+                            </li>
+                            
+                            <li>
+                                <a href="/notebooks/content/linux/processes/monitor_processes.md">Monitor Processes</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="articles">
+            <div class="col-sm-12">
+                <h3 class="category_header">Articles</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="article_list card-body">
+                        <ul>
+                            
+                            <li>
+                                Dec 2011 -
+                                <a href="/notebooks/content/articles/health_system_destruction_renamo_mozambique.md">Health System Destruction During The Mozambican Civil War</a>
+                            </li>
+                            
+                            <li>
+                                Dec 2011 -
+                                <a href="/notebooks/content/articles/health_system_reconstruction_post_war_kosovo.md">Health System Reconstruction In Post-War Kosovo</a>
+                            </li>
+                            
+                            <li>
+                                Dec 2011 -
+                                <a href="/notebooks/content/articles/puzzle_of_rebel_mobilization.md">The Problem Of Rebel Mobilization</a>
+                            </li>
+                            
+                            <li>
+                                Dec 2011 -
+                                <a href="/notebooks/content/articles/health_systems.md">The Structure Of Health Systems</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</main>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    
+
+    <footer class="footer text-center">
+        <div class="container">
+            <span class="text-muted">Copyright © Chris Albon, <time datetime="2020">2020</time>. All 588 articles, posts, and tutorials are available on <a href="https://github.com/chrisalbon/note.md">GitHub</a>.</span>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>

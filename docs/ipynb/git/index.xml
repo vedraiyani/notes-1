@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git - Chris Albon</title>
+    <link>https://chrisalbon.com/git/index.xml</link>
+    <description></description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Dec 2017 11:53:49 -0700</lastBuildDate>
+    
+        <atom:link href="https://chrisalbon.com/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GitHub Cheatsheet</title>
+      <link>https://chrisalbon.com/git/github_cheatsheet/</link>
+      <pubDate>Wed, 20 Dec 2017 11:53:49 -0700</pubDate>
+      
+      <guid>https://chrisalbon.com/git/github_cheatsheet/</guid>
+      <description>Find The Version Of Git git --version
+Create A New Git Repository  Go to the fold of the project.
+ Run git init
+  Clone An Existing Git Repository Cloning is the process of pulling down a copy of a repository stored on a server.
+ Go to the parent folder of where you want to repository&amp;rsquo;s folder to be in.
+ git clone [url to repository&#39;s git file] [name of folder / repository you want]</description>
+    </item>
+    
+  </channel>
+</rss>
